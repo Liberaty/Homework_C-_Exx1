@@ -11,8 +11,11 @@ int Prompt(string message)
 int num1 = Prompt("Введите первое число: ");
 int num2 = Prompt("Введите второе число: ");
 
-if (num1 > num2) {
+if (num1 > num2) 
+{
     System.Console.WriteLine($"Число {num1} больше, а число {num2} меньше");
-} else if (num1 < num2) {
+} 
+else if (num1 < num2) 
+{
     System.Console.WriteLine($"Число {num2} больше, а число {num1} меньше");
 }
